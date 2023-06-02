@@ -1,0 +1,82 @@
+----------------------------------------------Folder structure----------------------------------------------
+
+#views
+ 
+1. The html file(email template, any template used in backend) that is used in views folder.
+
+
+
+#test
+
+1. This folder is used for testing purpose. We add any testing file in this folder. This
+
+
+
+#public
+
+1. This is a static folder. It is used for serving images, videos stored in this folder and server. This folder is open-typed. 
+
+
+
+#node_modules
+
+1. This folder is used when you install any package in this project. The package details, files, code that would be created a folder inside this node_modules folder(automatically created).
+
+
+
+#locales
+
+1. This folder consists of json file. This json consists of languages(english, japanese, etc) that would be used in this project. This
+
+
+
+#database-backup
+
+1. This folder consists of database backup. This files are automatically backup by every day. This files are automatically generated.
+
+
+
+#data
+
+1. This folder consists of data(database initial data). This is used for seeding a database. For Eg. We would create a user, product manually. This
+
+
+
+#config
+
+1. This folder consists of configuration. The database configuration and authentication configuration. 
+
+
+
+#.github
+
+1. This folder consists of version control data. The github cache data that is automatically stored in this folder.
+
+
+
+#app(main-folder) - This folder is the main part of the project
+
+1. Controller 
+   A. This folder consists of all function/logics that is handled by the backend. 
+
+2. Middleware
+   A. This folder consists of all middleware(authentication) that is handled by the backend.
+
+3. Models
+   A. This folder consists of all database models/schema. The structure of the database.
+
+4. Routes
+   A. This folder consists of all routes that handled by backend
+
+
+
+# .env - This file is used to store secret key, public key for this project.
+# . gitignore - This file is used for ignore the folder while uploading from remote to git.
+# clean.js - This file is used for clean the database models
+#docker-compose.yml - This file is used for composing the docker(config the docker paths)
+# seed.js - This file is used to seed the mongoose database.
+# server.js - This is very main part of the project. This file is the CPU of that all folders and files. This is the base folder.
+# package.json - This file consists of packages and libraries which is used in this project.
+
+
+
